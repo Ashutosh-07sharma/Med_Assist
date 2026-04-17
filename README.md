@@ -32,8 +32,6 @@ Edit `backend/.env` and set real secrets:
 ```env
 NVIDIA_API_KEY=your_nvidia_api_key_here
 DATABASE_URL=sqlite:///./medical_chat.db
-NVIDIA_BASE_URL=https://integrate.api.nvidia.com/v1
-NVIDIA_MODEL=meta/llama-3.1-8b-instruct
 JWT_SECRET_KEY=replace_with_a_long_random_secret
 JWT_ALGORITHM=HS256
 JWT_EXPIRE_MINUTES=1440
