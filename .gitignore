@@ -37,6 +37,8 @@ frontend/dist/
 
 # SQLite / local data
 *.db
+*.db-wal
+*.db-shm
 *.sqlite
 *.sqlite3
 backend/medical_chat.db
